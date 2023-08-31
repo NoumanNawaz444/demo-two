@@ -513,6 +513,7 @@ nav .toggle_day_night img {
   border: none;
   outline: none;
   border-radius: 3px;
+  background: rgb(255, 255, 255,0.9);
 }
 .form form .short_in{
   width: calc(100% / 2 - 10px);
@@ -528,6 +529,7 @@ nav .toggle_day_night img {
   margin: 5px;
   padding: 10px;
   border-radius: 3px;
+  background: rgb(255, 255, 255,0.9);
 }
 .form form textarea::placeholder{
   position: absolute;

@@ -469,9 +469,10 @@ nav .toggle_day_night img {
     font-size: 1rem;
   }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:790px) {
   .testimonial .card{
     min-width: calc(100% / 2 - 20px);
+    max-width: calc(100% / 2 - 20px);
   }
 }
 @media screen and (max-width:550px) {

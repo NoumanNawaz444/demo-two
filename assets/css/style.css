@@ -464,17 +464,16 @@ nav .toggle_day_night img {
     width: 100%;
   }
 }
-@media screen and (max-width:810px) {
+@media screen and (max-width:900px) {
   .testimonial .card .tes_name h3{
     font-size: 1rem;
   }
-}
-@media screen and (max-width:790px) {
   .testimonial .card{
     min-width: calc(100% / 2 - 20px);
     max-width: calc(100% / 2 - 20px);
   }
 }
+
 @media screen and (max-width:550px) {
   .testimonial{
     flex-wrap: nowrap;

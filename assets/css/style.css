@@ -303,19 +303,22 @@ nav .toggle_day_night img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
   background: white;
   color: black;
   padding: 40px;
   width: 90%;
   margin: auto;
+  overflow-x: scroll;
 }
 .day_night_hero {
   background: black;
   color: white;
 }
+.Services::-webkit-scrollbar{
+  visibility: hidden ;
+}
 .Services .card {
-  width: calc(100% / 3 - 20px);
+  min-width: calc(100% / 3 - 20px);
   margin: 10px;
   padding: 10px;
   box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.5);
@@ -360,13 +363,13 @@ nav .toggle_day_night img {
     padding: 40px 20px;
   }
   .Services .card {
-    width: calc(100% / 2 - 20px);
+    min-width: calc(100% / 2 - 20px);
   }
 }
 @media screen and (max-width: 550px) {
   .Services .card {
-    width: 100%;
-    margin: 20px 0;
+    min-width: calc(100% - 20px);
+    margin: 20px 10px;
   }
 }
 
